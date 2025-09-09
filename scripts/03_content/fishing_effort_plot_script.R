@@ -8,7 +8,7 @@ data("data_fishing_effort")
 # Create a simple plot
 p <- ggplot(data_fishing_effort,
        aes(x = month, y = effort_hours)) +
-  geom_point(color= "hotpink")
+  geom_point(shape = 21, color= "steelblue", fill="lavender", size=3)
 
 # Save plot
 ggsave(plot = p, filename = "results/img/first_plot.png")
