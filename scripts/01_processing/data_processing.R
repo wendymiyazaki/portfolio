@@ -66,3 +66,6 @@ nurse_color <- nurse_color |>
 # Summarize and inspect the cleaned data
 glimpse(nurse_color)
 summary(nurse_color)
+
+# Export and save cleaned data
+write_rds(nurse_color, file = "data/processed/nurse_color.rds")
