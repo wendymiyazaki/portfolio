@@ -11,7 +11,7 @@ metrics, created a spatial map of catch sites, and combined all results into a
 final Quarto report.
 
 ## Final Report
-
+https://raw.githubusercontent.com/wendymiyazaki/portfolio/refs/heads/main/final_report.html
 
 ## Contents of project's repository 
 - `scripts/`: R scripts for analysis and wrangling the data set
