@@ -2,8 +2,16 @@
 The main objective of this project is to analyze the drivers of differences in 
 nurse shark coloration. I plan to do this by analyzing correlations between 
 environmental and biological factors and color data extracted from photos of 
-nurse sharks out in the field. This script processes the raw color dataset to 
-prepare it for further visualization and analysis in upcoming assignments.
+nurse sharks out in the field. This repository contains all files for my final 
+project in EVR 628. The goal of this project is to analyze the drivers of 
+differences in nurse shark coloration using field-collected color measurements 
+and spatial catch location data. Throughout the semester, I cleaned and 
+processed the raw datasets, generated visualizations of quantitative color 
+metrics, created a spatial map of catch sites, and combined all results into a 
+final Quarto report.
+
+## Final Report
+
 
 ## Contents of project's repository 
 - `scripts/`: R scripts for analysis and wrangling the data set
@@ -28,6 +36,14 @@ b              | numeric   | Blue channel value (0–255)
 avg_rgb        | numeric   | Average RGB value = (R + G + B)/3                
 color_shade    | factor    | Grouped color category based on avg_rgb: dark, 
                            | medium, or light 
+
+## Purpose of This Repository  
+This repository showcases the full workflow from raw data to processed results, 
+including:
+- Cleaning and standardizing raw field data  
+- Extracting and analyzing quantitative color metrics  
+- Creating a spatial map of capture sites  
+- Producing a complete Quarto report that integrates all analyses 
 
 ## Author
 Wendy Miyazaki
